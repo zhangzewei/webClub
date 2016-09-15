@@ -7,6 +7,7 @@
 * slider (黑科技)
 * 头像 + 描述
 * QQ 群 (Join us)
+* 彭晓清是猪
 
 ## 开发技术
 + jquery,fullpage,animate.css
