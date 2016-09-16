@@ -5,6 +5,11 @@ body{
 
 .section h1 {
   font-size: 6em;
+  margin-bottom: 10px;
+}
+
+.section h1 section{
+  visibility: hidden;
 }
 
 .section h2 span {
@@ -26,8 +31,41 @@ body{
   font-weight: lighter;
 }
 
+.slider1 h1,
+.slider1 h2,
+.slider1 .slider,
+.fp-tableCell > img,
+.fp-tableCell > h1,
+.fp-tableCell > p,
+#grid a,
+.master,
+.des {
+  visibility: hidden;
+}
+
 .slider {
   margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 20%;
+}
+
+.slider p {
+  width: 100%;
+}
+
+.slider img {
+  margin-bottom: -3px;
+  margin-left: 10px;
+  display: inline-block;
+  height: 20px;
+}
+
+h1.slide_title {
+  width: 60%;
+  margin: 20px auto;
+  font-size: 4em;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .section1 {
@@ -74,4 +112,23 @@ body{
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   padding: 10px 0;
+}
+
+.fp-controlArrow.fp-prev {
+  left: 15px;
+  border: none;
+  width: 40px;
+  height: 80px;
+  background: url(../img/left.png) center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.fp-controlArrow.fp-next {
+  right: 15px;
+  border: none;
+  width: 40px;
+  height: 80px;
+  background: url(../img/right.png) center no-repeat;
+  background-size: cover;
+  cursor: pointer;
 }
