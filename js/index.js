@@ -35,7 +35,10 @@ $(document).ready(function() {
             addAnimate($(this).find('.des'), 'fadeIn');
             break;
           case 4:
-
+            addAnimate($('.section4 h1, .section4_btn'), 'zoomInDown');
+            setTimeout(function(){
+              addAnimate($('.section4 img'), 'bounceInUp');
+            }, 480);
             break;
         }
       },
@@ -55,7 +58,8 @@ $(document).ready(function() {
             removeAnimate($(this).find('.des'), 'fadeIn');
             break;
           case 4:
-
+            removeAnimate($('.section4 h1, .section4_btn'), 'zoomInDown');
+            removeAnimate($('.section4 img'), 'bounceInUp');
             break;
         }
       },
@@ -120,7 +124,7 @@ $(document).ready(function() {
           removeAnimate(img, 'bounceInDown');
         }
       },
-      sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', '#fff'],
+      sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke'],
 
       //Scrolling
       css3: true,
