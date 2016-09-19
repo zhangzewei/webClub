@@ -163,3 +163,64 @@ a.section4_btn{
   background-size: cover;
   cursor: pointer;
 }
+
+@media all and (max-width:900px) {
+  .section h1 {
+    /*font-size: 5em;*/
+  }
+  .section h2 span {
+    font-size: 1.2em;
+  }
+  .slider{
+    width: 26%;
+  }
+  h1.slide_title{
+    font-size: 3.7em;
+  }
+  .base img{
+    width: 170px;
+    height: 170px;
+  }
+}
+
+@media all and (max-width:580px) {
+  .section h1 {
+    font-size: 3em;
+  }
+  .section h2 span {
+    font-size: 0.6em;
+  }
+  .master{
+    width: 140px;
+    height: 140px;
+  }
+  .des .subtit{
+    font-size: 1.1em;
+  }
+  .des p{
+    font-size: 0.5em;
+  }
+  .base img{
+    width: 130px;
+    height: 130px;
+  }
+  h1.slide_title{
+    font-size: 2.3em;
+  }
+  .base p{
+    font-size: 0.5em;
+  }
+}
+
+@media all and (max-width:320px){
+  .section h1 {
+    font-size: 2.25em;
+  }
+  .slider{
+    width: 30%;
+  }
+  .master{
+    width: 100px;
+    height: 100px;
+  }
+}
