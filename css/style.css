@@ -39,7 +39,8 @@ body{
 .fp-tableCell > p,
 #grid a,
 .master,
-.des {
+.des,
+.section4_btn {
   visibility: hidden;
 }
 
@@ -86,6 +87,36 @@ h1.slide_title {
 .section3 {
   background-image: url('../img/3.jpg');
   background-size: cover;
+}
+
+.section4 img{
+  display: block;
+  margin: 60px auto -140px;
+}
+
+a.section4_btn{
+  display: inline-block;
+  height: 36px;
+  padding: 0 2rem;
+  line-height: 36px;
+  letter-spacing: .5px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #26a69a;
+  transition: .2s ease-out;
+  cursor: pointer;
+  outline: 0;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.section4_btn:hover{
+  background-color: #2bbbad;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 .warp {
